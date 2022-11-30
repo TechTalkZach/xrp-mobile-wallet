@@ -9,10 +9,20 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@ethersproject/shims": "^5.7.0",
+    "base-64": "^1.0.0",
+    "events": "^3.3.0",
     "expo": "~47.0.8",
+    "expo-crypto": "~12.0.0",
+    "expo-crypto-polyfills": "^1.1.0",
     "expo-status-bar": "~1.4.2",
+    "node-libs-react-native": "^1.2.1",
+    "process": "^0.11.10",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-get-random-values": "^1.8.0",
+    "text-encoding": "^0.7.0",
+    "xrpl": "^2.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
